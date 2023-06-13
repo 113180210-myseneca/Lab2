@@ -1,1 +1,9 @@
+#A function that uses command line arguments. This function will print twovariables used, the script and then the script AND variables.
 
+import sys
+def var():
+  script=sys.argv[0]
+  vars=sys.argv[1:]
+  
+  print("The script name is",script)
+  print("the variables are",vars)
