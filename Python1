@@ -7,3 +7,7 @@ def var():
   
   print("The script name is",script)
   print("the variables are",vars)
+
+def helloWorld():
+  print(‘Hello World’)
+helloWorld()
